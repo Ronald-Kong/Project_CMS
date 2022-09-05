@@ -1,0 +1,23 @@
+{
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "defaultSeverity": "warning",
+    "rules": {
+      "object-literal-sort-keys": false,
+      "jsx-no-lambda": false,
+      "ordered-imports": false,
+      "no-console": false,
+      "no-implicit-dependencies": false,
+      "triple-equals": false,
+      "member-ordering": false
+    },
+    "linterOptions": {
+      "exclude": [
+        "config/**/*.js",
+        "webpack/**/*.js",
+        "node_modules/**/*.ts",
+        "coverage/lcov-report/*.js",
+        "src/**/*.js",
+        "src/**/*.jsx"
+      ]
+    }
+  }
